@@ -186,6 +186,27 @@ h3 {
 	padding-top: 0px;
 }
 
+/*#portfolio_table {
+	display: flex;
+	flex-wrap: wrap;
+}*/
+
+.portfolio-row {
+	margin-left: 30px;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex: 100%;
+}
+
+.portfolio-image {
+	position: relative;
+	width: 276px;
+	height: 207px;
+	background-color: red;
+	/*margin-right: 40px;*/
+}
+
 #connect_with_me {
 	background-color: white;
 	width: 270px;
@@ -201,7 +222,7 @@ h3 {
 	padding: 0px 2px 0px 2px;
 }
 
-#git {
+#image_container a img {
 	border-radius: 8px;
 }
 
