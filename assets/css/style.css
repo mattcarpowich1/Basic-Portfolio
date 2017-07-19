@@ -54,7 +54,8 @@ h1 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	vertical-align: center;
 	font-weight: 600;
-	margin-left: 156px;
+	/*margin-left: 156px;*/
+	margin-left: 100px;
 }
 
 h2 {
@@ -88,7 +89,8 @@ h3 {
 	font-weight: 300;
 	position: absolute;
 	top: 34px;
-	left: 858px;
+	/*left: 858px;*/
+	left: 790px;
 	padding-right: 20px;
 }
 
@@ -133,7 +135,8 @@ h3 {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	font-size: 18px;
-	margin-left: 156px;
+	/*margin-left: 156px;*/
+	margin-left: 100px;
 	margin-right: 40px;
 	padding-bottom: 40px;
 	vertical-align: top;
@@ -186,25 +189,33 @@ h3 {
 	padding-top: 0px;
 }
 
-/*#portfolio_table {
+#portfolio_table {
 	display: flex;
+	margin-left: 30px;
 	flex-wrap: wrap;
-}*/
+}
 
 .portfolio-row {
-	margin-left: 30px;
-	display: inline-flex;
+	/*margin-left: 30px;*/
+	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	flex: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*justify-content: space-between;*/
+	/*flex: 100%;*/
+	/*margin-right: 30px;*/
+	/*display: table-row;*/
 }
 
 .portfolio-image {
+	/*border: thick solid black;*/
+	/*display: table-cell;*/
+	/*margin-left: 30px;*/
 	position: relative;
 	width: 276px;
 	height: 207px;
 	background-color: red;
-	/*margin-right: 40px;*/
+	margin-right: 36px;
 }
 
 #connect_with_me {
