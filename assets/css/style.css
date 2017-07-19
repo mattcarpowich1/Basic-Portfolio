@@ -201,6 +201,10 @@ h3 {
 	padding: 0px 2px 0px 2px;
 }
 
+#git {
+	border-radius: 8px;
+}
+
 footer {
 	background-color: #666666;
 	width: 100%;
